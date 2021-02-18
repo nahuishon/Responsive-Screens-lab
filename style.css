@@ -5,7 +5,9 @@
 body {
   margin: 0;
 }
-
+img{
+  max-width: 100%;
+}
 
 .title {
   font-family: 'karla';
@@ -45,6 +47,7 @@ body {
     float: right;
     border: 0.4rem solid #f7dbdb;
 }
+
 
 
 /* target only screens up to 767px */
