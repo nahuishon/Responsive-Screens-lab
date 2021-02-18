@@ -22,35 +22,46 @@ body {
 
 .content{
   font-family: 'space mono';
-  width: 580px;
-  padding: 20px;
-  margin-bottom: 20px;
+  width: 36rem;
+  padding: 3rem;
+  margin-bottom: 3rempx;
   float: left;
-  border: 1px solid #bcbcbc;
+  border: 0.2rem solid #bcbcbc;
 }
 
 .h2{
     color:antiquewhite;
     background-color: aqua;
-    width: 260px;
-    padding: 20px;
-    margin-bottom: 20px;
+    width: 16rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
     float: right;
     border: 1px solid #bcbcbc;
 }
+.side{
+    width: 10.25rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    float: right;
+    border: 0.4rem solid #f7dbdb;
+}
+.img {
+    width: 100%;
+    height: auto;
+  }
 
 /* target only screens up to 767px */
 @media only screen and (max-width: 767px){
     
     .body{
         background-color: beige;
-        border: 12px solid #3e6a55;
+        border: 0.8rem solid #3e6a55;
       }
 
     .title {
         font-family: 'karla';
-        padding: 2em;
-        margin-bottom: 2em;
+        padding: 0.6rem;
+        margin-bottom: 1.5rem;
         background-color: #060505;
         color: white;
       }
@@ -59,14 +70,15 @@ body {
     background:rgb(35, 63, 44);
     color: white;
       }
+
   .content{
     font-family: 'space mono';
-    width: 380px;
+    width: 36rem;
     padding: 2rem;
-    margin-left: 12rem;
-    margin-bottom: 20px;
+    margin-left: 3rem;
+    margin-bottom: 1.25rem;
     float: left;
-    border: 2px solid #3e6a55;
+    border: 2rem solid #3e6a55;
       }
 }
 
@@ -79,7 +91,7 @@ body {
     .title {
         font-family: 'karla';
         width: auto;
-        border: 13px solid #375df4;
+        border: 2rem solid #375df4;
         background-color: #bcbcbc;
         color: white;
       }
@@ -89,14 +101,15 @@ body {
         width: auto;
         float: none;
     }
+  
 
      .content{
         width: auto;
         float: none;
        font-family: 'space mono';
-       width: 380px;
+       width: 18.75rem;
        padding: 2rem;
-       margin-bottom: 20px;
+       margin-bottom: 1.4px;
        float: left;
        border: 3px solid #000000;
          }
