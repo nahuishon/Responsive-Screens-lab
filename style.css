@@ -1,0 +1,46 @@
+/* CSS files add styling rules to your content */
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+body {
+  margin: 0;
+}
+
+.tutorial {
+  padding: 2em;
+  background: black;
+  color: white;
+}
+
+.title {
+ font-family: 'karla';
+}
+
+.info {
+ font-family: 'space mono';
+}
+
+/* target only screens up to 767px */
+@media only screen and (max-width: 767px){
+  
+  .info{
+    background:black;
+    color: white;
+  }
+}
+
+
+
+
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+   
+    .info{
+        background:rgb(206, 132, 132);
+        color: rgb(0, 0, 0);
+  
+}
+
+
+
+
