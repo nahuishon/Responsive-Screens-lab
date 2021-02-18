@@ -45,10 +45,7 @@ body {
     float: right;
     border: 0.4rem solid #f7dbdb;
 }
-.img {
-    width: 100%;
-    height: auto;
-  }
+
 
 /* target only screens up to 767px */
 @media only screen and (max-width: 767px){
