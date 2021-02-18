@@ -41,15 +41,29 @@ body {
 
 /* target only screens up to 767px */
 @media only screen and (max-width: 767px){
-  
-  .info{
+    
+    .body{
+        background-color: beige;
+        border: 12px solid #3e6a55;
+      }
+
+    .title {
+        font-family: 'karla';
+        padding: 2em;
+        margin-bottom: 2em;
+        background-color: #060505;
+        color: white;
+      }
+ 
+   .info{
     background:rgb(35, 63, 44);
     color: white;
-  }
+      }
   .content{
     font-family: 'space mono';
     width: 380px;
     padding: 2rem;
+    margin-left: 12rem;
     margin-bottom: 20px;
     float: left;
     border: 2px solid #3e6a55;
@@ -62,12 +76,23 @@ body {
 /* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {
    
+    .title {
+        font-family: 'karla';
+        width: auto;
+        border: 13px solid #375df4;
+        background-color: #bcbcbc;
+        color: white;
+      }
     .info{
         background:rgb(206, 132, 132);
         color: rgb(255, 255, 255);
+        width: auto;
+        float: none;
     }
 
      .content{
+        width: auto;
+        float: none;
        font-family: 'space mono';
        width: 380px;
        padding: 2rem;
