@@ -166,7 +166,7 @@ h2{
     .info{
         color: rgb(207, 208, 149);
         margin-left: 1rem;
-        width: 24rem;
+        width: 20rem;
     }
 
      .content{
@@ -184,7 +184,7 @@ h2{
 
          h2{
           color: #3e6a55;
-          width: 13rem;
+          width: 10rem;
           font-size: 1rem;
           background-color: #ffffff;
       }
