@@ -41,25 +41,25 @@ h2{
 }
 .content{
   font-family: 'space mono';
-  width: 23rem;
+  width: 20rem;
   padding: 2.2rem;
-  margin-left: 22rem;
+  margin-left: 15rem;
   margin-top: 5rem;
   float: left;
-  border: 0.1rem solid #bcbcbc;
+  border: 0.1rem solid #bdb8b8;
 }
 
 
 .side{
-    width: 25.25rem;
-    margin-right: 20rem;
+    width: 20.25rem;
+    margin-right: 23rem;
     margin-bottom: 3rem;
     float: right;
     color: rgb(255, 255, 255);
     box-shadow: 0.1rem 1rem 2rem #1d1d1d;
 }
 .side1{
-  width: 80.25rem;
+  width: 70.25rem;
   margin-left: 14rem;
   margin-top: 2rem;
   color: rgb(255, 255, 255);
@@ -68,42 +68,49 @@ h2{
 
 
 
-/* target only screens up to 767px */
-@media only screen and (max-width: 767px){
+/* target only screens up to 992px */
+@media only screen and (max-width: 992px){
     
   body{
         background-color: rgb(207, 174, 174);
         border: 1rem solid #22362c;
+        
       }
 
     .title {
         font-family: 'karla';
-        padding: 0.6rem;
+        padding: 6.6rem;
         margin-bottom: 1.5rem;
         background-color: #22362c;
+        background-image: url("./apple2.jpg"); 
+        background-size: 100%;
       }
+
     h1{
-      font-size:4rem;
-      color:#b7c5ff;
+      font-size:2.5rem;
+      margin-bottom: 8rem;
+      margin-left: 12rem;
+      color:#465282;
        text-shadow: 2px 2px 5px green;
     }
- 
-   .info{
-    
-    color: rgb(123, 68, 68);
-    width: 27rem;
-    margin-left: 10rem;
-      }
- 
-  .content{
-    font-family: 'space mono';
-    width: auto;
-    padding: 2rem;
-    margin-left: 1rem;
-    margin-top: 0.25rem;
-    float: auto;
    
+    .content{
+      font-family: 'space mono';
+      width: auto;
+      padding: 1rem;
+      margin-left: 1rem;
+      margin-top: 2.25rem;
+      float: auto;
+    }
+     
+   .info{
+    margin-top: 4rem;
+    color: rgb(123, 68, 68);
+    width: 40rem;
+    margin-left: 10rem;
+  
       }
+
       h2{
         color: #3e6a55;
         background-color: #e37f7f;
