@@ -112,18 +112,14 @@ h2{
       }
 
       h2{
-        color: #3e6a55;
-        background-color: #e37f7f;
+        color: #8b9166;
+        background-color: #e1d9aa;
         width: 30rem;
         font-size: 3rem;
-        text-shadow: 2px 2px 5px green;
+        text-shadow: 3px 3px 3px rgb(45, 80, 45);
     }
-    .side{
-      width: 100%;
-      margin-left: 1rem;
-      margin-top: 2rem;
-      margin-right: 1rem;
-    }
+    
+    
     .side1{
       width: 100%;
       margin-left: 1rem;
