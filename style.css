@@ -134,18 +134,29 @@ h2{
 /* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {
    
+  body{
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    border: 1rem solid #f2f26e;
+  }
     .title {
+      width: 100%;
         font-family: 'karla';
         width: auto;
-        border: 2rem solid #375df4;
+        border: 1.2rem solid #fcfcfc;
         background-color: #bcbcbc;
-        color: white;
       }
+
+      h1{
+        font-size:4rem;
+        color:#0e0e0e;
+      }
+
     .info{
-        background:rgb(206, 132, 132);
-        color: rgb(255, 255, 255);
-        width: auto;
-        float: none;
+        color: rgb(229, 232, 33);
+        margin-left: 1rem;
+        width: 24rem;
+
     }
   
 
@@ -153,12 +164,33 @@ h2{
         width: auto;
         float: none;
        font-family: 'space mono';
-       width: 18.75rem;
-       padding: 2rem;
+       width:auto;
+       padding: 1rem;
        margin-bottom: 1.4px;
-       float: left;
+       float:none;
+       color: #ebfff5;
        border: 3px solid #000000;
          }
+
+         h2{
+          color: #3e6a55;
+          width: 10rem;
+          font-size: 1rem;
+      }
+      .side{
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        margin-right: 3rem;
+      }
+
+      .side1{
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        margin-right: 3rem;
+     
+       }
   
 }
 
