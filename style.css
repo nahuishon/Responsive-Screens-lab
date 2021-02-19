@@ -71,34 +71,60 @@ h2{
 /* target only screens up to 767px */
 @media only screen and (max-width: 767px){
     
-    .body{
-        background-color: beige;
-        border: 0.8rem solid #3e6a55;
+  body{
+        background-color: rgb(207, 174, 174);
+        border: 1rem solid #22362c;
       }
 
     .title {
         font-family: 'karla';
         padding: 0.6rem;
         margin-bottom: 1.5rem;
-        background-color: #060505;
-        color: white;
+        background-color: #22362c;
       }
+    h1{
+      font-size:4rem;
+      color:#b7c5ff;
+    }
  
    .info{
-    background:rgb(125, 126, 125);
-    color: white;
-    margin-left: 3rem;
+    
+    color: rgb(123, 68, 68);
+    width: 27rem;
+    margin-left: 10rem;
       }
-
+ 
   .content{
     font-family: 'space mono';
-    width: 36rem;
-    padding: 2rem;
+    width: 35rem;
+    padding: 0.6rem;
     margin-left: 5rem;
-    margin-bottom: 1.25rem;
+    margin-top: 0.25rem;
     float: left;
-    border: 2rem solid #3e6a55;
+    border: 0.1rem solid #3e6a55;
       }
+      h2{
+        color: #3e6a55;
+        background-color: #d7d4d4;
+        width: 33rem;
+        font-size: 3rem;
+    }
+    .side{
+      width: 20.25rem;
+      margin-left: 20rem;
+      margin-bottom: 3rem;
+      margin-top: 3rem;
+      float: right;
+      box-shadow: 0.1rem 1rem 2rem #1d1d1d;
+    }
+    .side1{
+      width: 100%;
+      margin-left: 1rem;
+      margin-top: 2rem;
+      margin-right: 3rem;
+   
+     }
+
     }
 
 
