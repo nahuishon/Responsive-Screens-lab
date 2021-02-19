@@ -85,6 +85,7 @@ h2{
     h1{
       font-size:4rem;
       color:#b7c5ff;
+       text-shadow: 2px 2px 5px green;
     }
  
    .info{
@@ -96,26 +97,25 @@ h2{
  
   .content{
     font-family: 'space mono';
-    width: 35rem;
-    padding: 0.6rem;
-    margin-left: 5rem;
+    width: auto;
+    padding: 2rem;
+    margin-left: 1rem;
     margin-top: 0.25rem;
-    float: left;
-    border: 0.1rem solid #3e6a55;
+    float: auto;
+   
       }
       h2{
         color: #3e6a55;
-        background-color: #d7d4d4;
-        width: 33rem;
+        background-color: #e37f7f;
+        width: 30rem;
         font-size: 3rem;
+        text-shadow: 2px 2px 5px green;
     }
     .side{
-      width: 20.25rem;
-      margin-left: 20rem;
-      margin-bottom: 3rem;
-      margin-top: 3rem;
-      float: right;
-      box-shadow: 0.1rem 1rem 2rem #1d1d1d;
+      width: 100%;
+      margin-left: 2rem;
+      margin-top: 2rem;
+      margin-right: 3rem;
     }
     .side1{
       width: 100%;
