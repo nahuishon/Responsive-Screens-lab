@@ -114,6 +114,7 @@ h2{
       h2{
         color: #8b9166;
         background-color: #e1d9aa;
+        margin-left: 10rem;
         width: 30rem;
         font-size: 3rem;
         text-shadow: 3px 3px 3px rgb(45, 80, 45);
@@ -121,6 +122,8 @@ h2{
     
     .content p{
       width: 30rem;
+      color: #3e6a55;
+      text-shadow: 1px 1px 1px rgb(56, 75, 56);
       margin-left: 10rem;
     }
     .side1{
