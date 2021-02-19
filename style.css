@@ -137,45 +137,47 @@ h2{
   body{
     width: 100%;
     background-color: rgb(19, 19, 19);
-    border: 1rem solid #f2f26e;
+    border: 1rem solid #ffffff;
   }
     .title {
       width: 100%;
         font-family: 'karla';
         width: auto;
-        border: 1.2rem solid #fcfcfc;
-        background-color: #bcbcbc;
+        border: 1.2rem solid #aae43d;
+        background-color: #e34444;
       }
 
       h1{
         font-size:4rem;
         color:#0e0e0e;
+        border: 1.2rem solid #aae43d;
+
       }
 
     .info{
-        color: rgb(229, 232, 33);
+        color: rgb(207, 208, 149);
         margin-left: 1rem;
         width: 24rem;
-
     }
-  
 
      .content{
         width: auto;
         float: none;
        font-family: 'space mono';
        width:auto;
-       padding: 1rem;
-       margin-bottom: 1.4px;
+       padding: 2rem;
+       margin-bottom: 1rem;
+       margin-left: 0.01rem;
        float:none;
-       color: #ebfff5;
-       border: 3px solid #000000;
+       color: #fffdfd;
+       border: 3px solid #c6ee56;
          }
 
          h2{
           color: #3e6a55;
-          width: 10rem;
+          width: 13rem;
           font-size: 1rem;
+          background-color: #ffffff;
       }
       .side{
         width: 100%;
@@ -187,7 +189,7 @@ h2{
       .side1{
         width: 100%;
         margin-left: 1rem;
-        margin-top: 2rem;
+       margin-top: 0;
         margin-right: 3rem;
      
        }
