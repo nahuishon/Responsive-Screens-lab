@@ -5,56 +5,63 @@
 body {
   margin: 0;
 }
-img{
+.img{
   max-width: 100%;
 }
 
 .title {
-  font-family: 'karla';
   padding: 1em;
   margin-bottom: 1em;
   background: black;
+}
+
+h1{
+  font-size:2.5rem;
+  font-family: 'karla';
+  text-align: center;
   color: white;
 }
 
 .info {
  font-family: 'space mono';
-  margin-left: 2rem;
-  margin-bottom:2rem;
-  width: 50rem;
-
+  margin-bottom:3rem;
+  margin-top: 4rem;
+  width: 70rem;
+  margin-left: 17rem;
 }
 h2{
-    color:antiquewhite;
-    background-color: rgb(73, 106, 106);
+    color:rgb(92, 92, 92);
+    background-color: rgb(255, 255, 255);
     width: 14rem;
     padding: 1rem;
     margin-bottom: 1rem;
-    float: right;
-    border: 1px solid #bcbcbc;
-    margin-right:15rem;
+    float: center;
+    
+    margin-left:3rem;
 }
 .content{
   font-family: 'space mono';
-  width: 36rem;
-  padding: 5.2rem;
-  margin-left: 5rem;
+  width: 23rem;
+  padding: 2.2rem;
+  margin-left: 22rem;
+  margin-top: 5rem;
   float: left;
   border: 0.1rem solid #bcbcbc;
 }
 
 
 .side{
-    width: 24.25rem;
-    margin-right: 12rem;
+    width: 25.25rem;
+    margin-right: 20rem;
+    margin-bottom: 3rem;
     float: right;
     color: rgb(255, 255, 255);
     box-shadow: 0.1rem 1rem 2rem #1d1d1d;
 }
 .side1{
-  width: 36.25rem;
-  margin-right: 12rem;
-  float: right;
+  width: 80.25rem;
+  margin-left: 14rem;
+  margin-top: 2rem;
   color: rgb(255, 255, 255);
   box-shadow: 0.1rem 1rem 2rem #1d1d1d;
 }
@@ -78,20 +85,22 @@ h2{
       }
  
    .info{
-    background:rgb(35, 63, 44);
+    background:rgb(125, 126, 125);
     color: white;
+    margin-left: 3rem;
       }
 
   .content{
     font-family: 'space mono';
     width: 36rem;
     padding: 2rem;
-    margin-left: 3rem;
+    margin-left: 5rem;
     margin-bottom: 1.25rem;
     float: left;
     border: 2rem solid #3e6a55;
       }
-}
+    }
+
 
 
 
